@@ -1,0 +1,41 @@
+body {
+  background-color: whitesmoke;
+}
+
+#To-Do {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: rgb(255, 255, 255);
+  padding: 25px;
+  padding-top: 40px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #00000080;
+}
+
+#AddTask {
+  float: right;
+  background-color: rgb(29, 180, 29);
+  color: white;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid rgb(29, 180, 29);
+}
+input {
+  flex-grow: 1;
+  border-radius: 5px;
+  border: 1.5px solid grey;
+  border-color: rgb(196, 196, 196);
+}
+
+form {
+  column-gap: 15px;
+  display: flex;
+}
